@@ -55,7 +55,7 @@ SeqVLM is a novel framework for zero-shot 3D visual grounding that leverages mul
 
 3.  **3D Features**: Generate `feats_3d.pkl` by following the instructions from [ZSVG3D](https://github.com/CurryYuan/ZSVG3D) and place the file in the `data/` directory.
 
-4.  **Mask3D Predictions**: Download the pre-computed Mask3D predictions from [this link provided by ZSVG3D](https://github.com/CurryYuan/ZSVG3D) and place them in the appropriate data folder.
+4.  **Mask3D Predictions**: Download the Mask3D predictions from [this link provided by ZSVG3D](https://github.com/CurryYuan/ZSVG3D) and place them in the `data/` directory.
 
 5.  **Preprocessed Image Sequences**: Download our preprocessed multi-view image sequences for [ScanRefer](url_to_scanrefer_preprocessed) and [Nr3D](https://drive.google.com/file/d/1rASHZ8YrsjrJzoaYKManMqwQB0WGp8w5/view?usp=drive_link). Unzip and place them in the `data/` directory.
 
