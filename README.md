@@ -57,7 +57,7 @@ SeqVLM is a novel framework for zero-shot 3D visual grounding that leverages mul
 
 4.  **Mask3D Predictions**: Download the pre-computed Mask3D predictions from [this link provided by ZSVG3D](https://github.com/CurryYuan/ZSVG3D) and place them in the appropriate data folder.
 
-5.  **Preprocessed Image Sequences**: Download our preprocessed multi-view image sequences for [ScanRefer](url_to_scanrefer_preprocessed) and [Nr3D](url_to_nr3d). Unzip and place them in the `data/` directory.
+5.  **Preprocessed Image Sequences**: Download our preprocessed multi-view image sequences for [ScanRefer](url_to_scanrefer_preprocessed) and [Nr3D](https://drive.google.com/file/d/1rASHZ8YrsjrJzoaYKManMqwQB0WGp8w5/view?usp=drive_link). Unzip and place them in the `data/` directory.
 
 6.  **(Optional) Fallback Strategy Data**: The final version of our code implements a fallback strategy using ZSVG3D when the VLM fails, which yields a slightly performance boost. If you wish to use this feature, please download the preprocessed data required by ZSVG3D:
     *   [GT Instances](https://cuhko365-my.sharepoint.com/:u:/g/personal/221019046_link_cuhk_edu_cn/Ed4HCYSQh5xDgmaCM4PatOsBWHpri34gHXePO2VwUKJWfw?e=M7vXJz)
