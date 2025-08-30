@@ -1,0 +1,19 @@
+doubao-vision:
+  base-url: "<YOUR_API_BASE_URL>"
+  model: "<YOUR_MODEL_NAME>"
+  api-key: "<YOUR_API_KEY>"
+
+doubao:
+  base-url: '<YOUR_API_BASE_URL>'
+  model: '<YOUR_MODEL_NAME>'
+  api-key: '<YOUR_API_KEY>'
+
+gpt-proxy:
+  base-url: '<YOUR_API_BASE_URL>'
+  model: '<YOUR_MODEL_NAME>'
+  api-key: '<YOUR_API_KEY>'
+
+qwen:
+  base-url: '<YOUR_API_BASE_URL>'
+  model: '<YOUR_MODEL_NAME>'
+  api-key: '<YOUR_API_KEY>'

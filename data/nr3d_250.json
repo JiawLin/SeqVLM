@@ -1,0 +1,2252 @@
+[
+  {
+        "scan_id": "scene0351_00",
+        "target_id": 0,
+        "caption": "it is the chair by itself not near the desk",
+        "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='desk')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+        "scan_id": "scene0307_00",
+        "target_id": 5,
+        "caption": "select the sink farther from the washer",
+        "program": "BOX0=LOC(object='sink')\nBOX1=LOC(object='washer')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": false,
+    "obj_name": "sink"
+  },
+  {
+        "scan_id": "scene0629_00",
+        "target_id": 22,
+        "caption": "this cabinet is dark and farther away from the door",
+        "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='door')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+        "scan_id": "scene0633_00",
+        "target_id": 25,
+        "caption": "the box shelf you want is right next to the chair in the corner with the pillow it is almost touching the chair",
+        "program": "BOX0=LOC(object='box shelf')\nBOX1=LOC(object='chair')\nBOX2=LOC(object='corner')\nBOX3=LOC(object='pillow')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=BOX0, anchors=BOX3)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "box shelf"
+  },
+  {
+        "scan_id": "scene0568_00",
+        "target_id": 15,
+        "caption": "while facing the play carpet it is the farthest chair to the left beside the bookshelf",
+        "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='play carpet')\nBOX2=LOC(object='bookshelf')\nTARGET=FARTHEST(targets=BOX0, anchors=[BOX1, BOX2])",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+        "scan_id": "scene0527_00",
+        "target_id": 23,
+        "caption": "it is the towel on the wall that is the farthest from the sinks",
+        "program": "BOX0=LOC(object='towel')\nBOX1=LOC(object='wall')\nBOX2=LOC(object='sinks')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=FARTHEST(targets=TARGET, anchors=BOX2)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "towel"
+  },
+  {
+        "scan_id": "scene0208_00",
+        "target_id": 106,
+        "caption": "this is the angled bookshelf far away from the corner of bookshelves",
+        "program": "BOX0=LOC(object='angled bookshelf')\nBOX1=LOC(object='corner of bookshelves')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "bookshelf"
+  },
+  {
+        "scan_id": "scene0187_00",
+        "target_id": 1,
+        "caption": "the chair with nothing colorful around it",
+        "program": "BOX0=LOC(object='chair')\nTARGET=LOWEST(targets=BOX0)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+        "scan_id": "scene0633_00",
+        "target_id": 22,
+        "caption": "it is the large curtain on the window with a small white table in front of it",
+        "program": "BOX0=LOC(object='curtain')\nBOX1=LOC(object='window')\nBOX2=LOC(object='white table')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2])",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "curtain"
+  },
+  {
+        "scan_id": "scene0063_00",
+        "target_id": 7,
+        "caption": "If you were standing in front of the sink, facing away from the sink, out of the two chairs closest to you it's the one on the right",
+        "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='window')\nBOX2=LOC(object='white table')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2])",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+        "scan_id": "scene0568_00",
+        "target_id": 0,
+        "caption": "when facing the play carpet it is the chair to the left not in the corner",
+        "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='play carpet')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+        "scan_id": "scene0221_00",
+        "target_id": 41,
+        "caption": "The bed next to the dresser, it is the pillow in the back, closest to the nightstand.",
+        "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='nightstand')\nTARGET=FARTHEST(targets=BOX0, anchors=[BOX1, BOX2])",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "pillow"
+  },
+  {
+        "scan_id": "scene0663_00",
+        "target_id": 10,
+        "caption": "choose the monitor that is closest to the windows",
+        "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='windows')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+        "scan_id": "scene0474_00",
+        "target_id": 36,
+        "caption": "the window farthest from the door",
+        "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='door')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+        "scan_id": "scene0423_00",
+        "target_id": 3,
+        "caption": "it is the left armchair between the two closest to the table",
+        "program": "BOX0=LOC(object='armchair')\nBOX1=LOC(object='table')\nBOX2=LOC(object='closest')\nTARGET=LEFT(targets=BOX0, anchors=BOX2)",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "armchair"
+  },
+  {
+        "scan_id": "scene0329_00",
+        "target_id": 32,
+        "caption": "the white monitor farthest from the trash cans which are in between the two doors",
+        "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='trash cans')\nBOX2=LOC(object='doors')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)\nTARGET=BETWEEN(targets=BOX0, anchors=BOX2)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+        "scan_id": "scene0146_00",
+        "target_id": 3,
+        "caption": "the longer rail farthest from sink",
+        "program": "BOX0=LOC(object='rail')\nBOX1=LOC(object='sink')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": false,
+    "obj_name": "rail"
+  },
+  {
+        "scan_id": "scene0435_00",
+        "target_id": 16,
+        "caption": "the shoes farthest from the front door",
+        "program": "BOX0=LOC(object='shoes')\nBOX1=LOC(object='front door')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "shoes"
+  },
+  {
+        "scan_id": "scene0699_00",
+        "target_id": 26,
+        "caption": "standing at the foot of the bed looking at the head of the bed it is the pillow on the left",
+        "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='bed')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "pillow"
+  },
+  {
+        "scan_id": "scene0678_00",
+        "target_id": 25,
+        "caption": "when facing the long grey counter it is the window in the middle",
+        "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='grey counter')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+        "scan_id": "scene0607_00",
+        "target_id": 16,
+        "caption": "the sink is to the right of the metal thing on the wall and on the right of the sink on the wall is so meting white and elongated also to the right of the sink are plastic containers",
+        "program": "BOX0=LOC(object='sink')\nBOX1=LOC(object='coffee mugs')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "sink"
+  },
+  {
+        "scan_id": "scene0697_00",
+        "target_id": 11,
+        "caption": "from the foot of the bed choose the dresser that is to your right it is the shorter dresser with eight drawers",
+        "program": "BOX0=LOC(object='dresser')\nBOX1=LOC(object='bed')\nBOX2=RIGHT(targets=BOX0, anchors=BOX1)\nSIZES=CALC_SIZE(targets=BOX2)\nTARGET=MIN(data=SIZES)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "dresser"
+  },
+  {
+        "scan_id": "scene0095_00",
+        "target_id": 28,
+        "caption": "of the five monitors facing you the keyboard that is directly in front of the center monitor",
+        "program": "BOX0=LOC(object='keyboard')\nBOX1=LOC(object='monitors')\nBOX2=LOC(object='center monitor')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2])",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "keyboard"
+  },
+  {
+        "scan_id": "scene0328_00",
+        "target_id": 30,
+        "caption": "find the sign that is under the cabinet and farthest away from the sink",
+        "program": "BOX0=LOC(object='sign')\nBOX1=LOC(object='cabinet')\nBOX2=LOC(object='sink')\nBOX3=LOWER(targets=BOX0, anchors=BOX1)\nTARGET=FARTHEST(targets=BOX0, anchors=BOX3)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "sign"
+  },
+  {
+        "scan_id": "scene0629_00",
+        "target_id": 32,
+        "caption": "the picture that is slightly behind the air mattress propped on the wall",
+        "program": "BOX0=LOC(object='picture')\nBOX1=LOC(object='air mattress')\nTARGET=BEHIND(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "picture"
+  },
+  {
+        "scan_id": "scene0652_00",
+        "target_id": 17,
+        "caption": "the only pillow that is not on the bed",
+        "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='bed')\nTARGET=NOT(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "pillow"
+  },
+  {
+        "scan_id": "scene0700_00",
+        "target_id": 6,
+        "caption": "backpack is farthest away from window closest to the bookshelf",
+        "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='window')\nBOX2=LOC(object='bookshelf')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+        "easy": true,
+        "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+        "scan_id": "scene0643_00",
+        "target_id": 40,
+        "caption": "turn and face the small white fridge between the desks and it is the desk on the left beside the fridge",
+        "program": "BOX0=LOC(object='small white fridge')\nBOX1=LOC(object='desks')\nBOX2=LOC(object='left')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)\nTARGET=LEFT(targets=TARGET, anchors=BOX2)",
+        "easy": false,
+        "view_dep": true,
+    "obj_name": "desk"
+  },
+  {
+        "scan_id": "scene0704_00",
+        "target_id": 15,
+        "caption": "wall mounted cabinet the one that is not above printer",
+        "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='printer')\nTARGET=NOT_HIGHER(targets=BOX0, anchors=BOX1)",
+        "easy": false,
+        "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+        "scan_id": "scene0696_00",
+        "target_id": 4,
+        "caption": "when facing the monitors it is the monitor on the left",
+        "program": "BOX0=LOC(object='monitors')\nTARGET=LEFT(targets=BOX0)",
+        "easy": true,
+        "view_dep": true,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 33,
+    "caption": "this lamp is on a table between the beds",
+    "program": "BOX0=LOC(object='lamp')\nBOX1=LOC(object='table')\nBOX2=LOC(object='beds')\nTARGET=BETWEEN(targets=BOX0, anchors=BOX1)\nTARGET=LEFT(targets=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "lamp"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 0,
+    "caption": "pick the grey chair next to the green one",
+    "program": "BOX0=LOC(object='grey chair')\nBOX1=LOC(object='green one')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 23,
+    "caption": "shelf up above the bed",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='bed')\nTARGET=UP(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 23,
+    "caption": "the armchair that is right in the corner",
+    "program": "BOX0=LOC(object='armchair')\nTARGET=LOWEST(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "armchair"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 7,
+    "caption": "facing the bookshelves the chair in the lower right corner",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='bookshelves')\nTARGET=LOWER_RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0169_00",
+    "target_id": 28,
+    "caption": "when facing the row of grey chairs the window that is over the chairs on the left",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='chairs')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)\nTARGET=LEFT(targets=TARGET)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0187_00",
+    "target_id": 6,
+    "caption": "the smallest table its has no chairs under next to it",
+    "program": "BOX0=LOC(object='table')\nTARGET=SMALLEST(targets=BOX0)\nTARGET=NO_CHAIRS(targets=TARGET)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 38,
+    "caption": "the tall shelf behind the door",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='door')\nTARGET=BEHIND(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0086_00",
+    "target_id": 15,
+    "caption": "the rail on the wall under the toilet paper holder",
+    "program": "BOX0=LOC(object='rail')\nBOX1=LOC(object='wall')\nBOX2=LOC(object='toilet paper holder')\nTARGET=LOWER(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "rail"
+  },
+  {
+    "scan_id": "scene0591_00",
+    "target_id": 16,
+    "caption": "the pillow is yellow and standing upright on the couch not laying down",
+    "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='couch')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0686_00",
+    "target_id": 23,
+    "caption": "the toilet in the right stall",
+    "program": "BOX0=LOC(object='toilet')\nBOX1=LOC(object='right stall')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "toilet"
+  },
+  {
+    "scan_id": "scene0699_00",
+    "target_id": 25,
+    "caption": "facing the foot of the bed the pillow on the right",
+    "program": "BOX0=LOC(object='bed')\nBOX1=LOC(object='pillow')\nTARGET=RIGHT(targets=BOX1, anchors=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0458_00",
+    "target_id": 4,
+    "caption": "the toilet paper on the right hand side of the toilet",
+    "program": "BOX0=LOC(object='toilet paper')\nBOX1=LOC(object='toilet')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "toilet paper"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 7,
+    "caption": "the shelf above the couch",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='couch')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0665_00",
+    "target_id": 17,
+    "caption": "the round table with the most objects on top of it",
+    "program": "BOX0=LOC(object='round table')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MAX(data=SIZES)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 31,
+    "caption": "the correct cup is closer to the edge of the desk",
+    "program": "BOX0=LOC(object='cup')\nBOX1=LOC(object='desk')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "cup"
+  },
+  {
+    "scan_id": "scene0580_00",
+    "target_id": 9,
+    "caption": "the backpack on the floor next to the ipad on the bed",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='ipad')\nBOX2=LOC(object='bed')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 29,
+    "caption": "the garbage can and not recycling bin",
+    "program": "BOX0=LOC(object='garbage can')\nBOX1=LOC(object='recycling bin')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0063_00",
+    "target_id": 5,
+    "caption": "if we face the small yellow table the chair to the far right",
+    "program": "BOX0=LOC(object='yellow table')\nBOX1=LOC(object='chair')\nTARGET=RIGHT(targets=BOX1, anchors=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 4,
+    "caption": "when facing the door the couch to the right",
+    "program": "BOX0=LOC(object='couch')\nBOX1=LOC(object='door')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "couch"
+  },
+  {
+    "scan_id": "scene0629_00",
+    "target_id": 0,
+    "caption": "pick the door that is slightly open and is closer to the red an yellow painting",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='red and yellow painting')\nSTATUS=CALC_STATUS(targets=BOX0)\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, STATUS])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 11,
+    "caption": "chair against the wall closest to the window",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='wall')\nBOX2=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0378_00",
+    "target_id": 40,
+    "caption": "the green chair",
+    "program": "BOX0=LOC(object='green chair')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "office chair"
+  },
+  {
+    "scan_id": "scene0378_00",
+    "target_id": 37,
+    "caption": "facing the door the shelf to the right",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='door')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "bookshelf"
+  },
+  {
+    "scan_id": "scene0699_00",
+    "target_id": 18,
+    "caption": "tiny door in the corner",
+    "program": "BOX0=LOC(object='door')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0435_00",
+    "target_id": 17,
+    "caption": "the black shoes in front of the door",
+    "program": "BOX0=LOC(object='black shoes')\nBOX1=LOC(object='door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "shoes"
+  },
+  {
+    "scan_id": "scene0462_00",
+    "target_id": 21,
+    "caption": "printer on left shelving on right you want the back option of the two boxes",
+    "program": "BOX0=LOC(object='printer')\nBOX1=LOC(object='shelving')\nBOX2=LEFT(targets=BOX0, anchors=BOX1)\nBOX3=RIGHT(targets=BOX0, anchors=BOX1)\nTARGET=BEHIND(targets=[BOX2, BOX3])",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0077_00",
+    "target_id": 1,
+    "caption": "the printer directly in front of the window closest to the corner of the room",
+    "program": "BOX0=LOC(object='printer')\nBOX1=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "printer"
+  },
+  {
+    "scan_id": "scene0678_00",
+    "target_id": 32,
+    "caption": "the window in the middle of the room next to the black floor mat",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='room')\nBOX2=LOC(object='black floor mat')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0550_00",
+    "target_id": 18,
+    "caption": "toilet paper on top of the paper towel dispenser its the one at the bottom closest to the window",
+    "program": "BOX0=LOC(object='toilet paper')\nBOX1=LOC(object='paper towel dispenser')\nBOX2=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "toilet paper"
+  },
+  {
+    "scan_id": "scene0647_00",
+    "target_id": 9,
+    "caption": "this is the round table by the closed white door",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='closed white door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 27,
+    "caption": "the dresser under the bed with the orange pillow",
+    "program": "BOX0=LOC(object='dresser')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='orange pillow')\nTARGET=UNDER(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "dresser"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 20,
+    "caption": "box surrounds door with glass inset",
+    "program": "BOX0=LOC(object='box')\nBOX1=LOC(object='door')\nTARGET=SURROUNDS(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0474_00",
+    "target_id": 9,
+    "caption": "the backpack closest to the windows",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='windows')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0644_00",
+    "target_id": 41,
+    "caption": "the keyboard that is on the little side desk on the end of the big desks and is near the shelves",
+    "program": "BOX0=LOC(object='keyboard')\nBOX1=LOC(object='side desk')\nBOX2=LOC(object='big desks')\nBOX3=LOC(object='shelves')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2, BOX3])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "keyboard"
+  },
+  {
+    "scan_id": "scene0307_00",
+    "target_id": 24,
+    "caption": "choose the shelf next to the blue shower",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='blue shower')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0221_00",
+    "target_id": 29,
+    "caption": "the chair is underneath the brown table in front bed",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='brown table')\nBOX2=LOC(object='bed')\nTARGET=UNDER(targets=BOX0, anchors=BOX1, anchors2=BOX2)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0249_00",
+    "target_id": 33,
+    "caption": "the window closest to the recycling bin",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='recycling bin')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0208_00",
+    "target_id": 1,
+    "caption": "find the box with the longest set of bookcases then choose the smaller one in the corner next to it on the left",
+    "program": "BOX0=LOC(object='box')\nBOX1=LOC(object='longest set of bookcases')\nBOX2=LOC(object='smaller one')\nBOX3=LOC(object='corner')\nTARGET=LEFT(targets=BOX2, anchors=[BOX0, BOX1, BOX3])",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "bookshelf"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 33,
+    "caption": "from under the room it is the shoes under the bed completely",
+    "program": "BOX0=LOC(object='shoes')\nBOX1=LOC(object='bed')\nTARGET=UNDER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shoes"
+  },
+  {
+    "scan_id": "scene0427_00",
+    "target_id": 4,
+    "caption": "chair near the table facing the chair in the corner",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='table')\nBOX2=LOC(object='corner')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)\nTARGET=LEFT(targets=TARGET, anchors=BOX2)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0696_00",
+    "target_id": 4,
+    "caption": "if you face the two monitors pick the one of the left side that is closer to the window",
+    "program": "BOX0=LOC(object='monitors')\nBOX1=LOC(object='window')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0251_00",
+    "target_id": 14,
+    "caption": "the open door by the trash cans leading into a room with white flooring",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='trash cans')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 28,
+    "caption": "the dresser underneath the bed with a purple covering",
+    "program": "BOX0=LOC(object='dresser')\nBOX1=LOC(object='bed')\nTARGET=LOWER(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "dresser"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 8,
+    "caption": "the doors closest to the chair",
+    "program": "BOX0=LOC(object='doors')\nBOX1=LOC(object='chair')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "doors"
+  },
+  {
+    "scan_id": "scene0462_00",
+    "target_id": 21,
+    "caption": "the smaller white colored box against the wall next to the green bucket",
+    "program": "BOX0=LOC(object='white colored box')\nBOX1=LOC(object='wall')\nBOX2=LOC(object='green bucket')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0231_00",
+    "target_id": 31,
+    "caption": "the trash can that has some multicolored folder things on the wall above it",
+    "program": "BOX0=LOC(object='trash can')\nBOX1=LOC(object='folder things')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0030_00",
+    "target_id": 48,
+    "caption": "the table is the shorter lighter one with the pulled out chair at it",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='pulled out chair')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0207_00",
+    "target_id": 12,
+    "caption": "look for the window that is closer to the olive green sofa",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='olive green sofa')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0149_00",
+    "target_id": 0,
+    "caption": "the kitchen cabinets sink and counter plus part of the floor",
+    "program": "BOX0=LOC(object='kitchen cabinets')\nBOX1=LOC(object='sink')\nBOX2=LOC(object='counter')\nBOX3=LOC(object='floor')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2, BOX3])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "kitchen counter"
+  },
+  {
+    "scan_id": "scene0553_00",
+    "target_id": 8,
+    "caption": "toilet paper located directly below the metal holding bar and directly to the left of the toilet",
+    "program": "BOX0=LOC(object='toilet paper')\nBOX1=LOC(object='metal holding bar')\nBOX2=LOC(object='toilet')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)\nTARGET=LOWER(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "toilet paper"
+  },
+  {
+    "scan_id": "scene0607_00",
+    "target_id": 16,
+    "caption": "the sink on the right hand side",
+    "program": "BOX0=LOC(object='sink')\nTARGET=RIGHT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "sink"
+  },
+  {
+    "scan_id": "scene0314_00",
+    "target_id": 8,
+    "caption": "facing the shelves choose the chair on the right closest to you",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='shelves')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "office chair"
+  },
+  {
+    "scan_id": "scene0580_00",
+    "target_id": 17,
+    "caption": "if you are standing at the foot of the bed choose the pillow on the left",
+    "program": "BOX0=LOC(object='bed')\nBOX1=LOC(object='pillow')\nTARGET=LEFT(targets=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0435_00",
+    "target_id": 16,
+    "caption": "these shoes are adjacent to the nearby door rather than in front of it",
+    "program": "BOX0=LOC(object='shoes')\nBOX1=LOC(object='door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "shoes"
+  },
+  {
+    "scan_id": "scene0086_00",
+    "target_id": 28,
+    "caption": "the smallest bathroom stall",
+    "program": "BOX0=LOC(object='bathroom stall')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MIN(data=SIZES)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "bathroom stall"
+  },
+  {
+    "scan_id": "scene0231_00",
+    "target_id": 20,
+    "caption": "facing the wall with two pictures the picture on the right",
+    "program": "BOX0=LOC(object='picture')\nTARGET=RIGHT(targets=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "picture"
+  },
+  {
+    "scan_id": "scene0699_00",
+    "target_id": 27,
+    "caption": "the backpack close to the bed on the floor",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='bed')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0222_00",
+    "target_id": 29,
+    "caption": "the window on the right that has a fan in front of the middle of it",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='fan')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)\nTARGET=MID(targets=TARGET)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 0,
+    "caption": "the desk that has something teal light blue sitting on it",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='teal light blue')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 3,
+    "caption": "if you are standing in the middle of the room facing the two monitors you are looking for the monitor on your right",
+    "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='right')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0412_00",
+    "target_id": 15,
+    "caption": "the trash bin in the right corner behind the blue trash can",
+    "program": "BOX0=LOC(object='trash bin')\nBOX1=LOC(object='blue trash can')\nTARGET=BEHIND(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0046_00",
+    "target_id": 49,
+    "caption": "the shoes closest to the window",
+    "program": "BOX0=LOC(object='shoes')\nBOX1=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "shoes"
+  },
+  {
+    "scan_id": "scene0607_00",
+    "target_id": 9,
+    "caption": "the chair is in front of the table brown cabinet by sink",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='table')\nBOX2=LOC(object='brown cabinet')\nBOX3=LOC(object='sink')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2, BOX3])",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0580_00",
+    "target_id": 25,
+    "caption": "facing the doors the door on the left",
+    "program": "BOX0=LOC(object='door')\nTARGET=LEFT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0343_00",
+    "target_id": 8,
+    "caption": "the middle rolling cart white in color next to the teal and tan",
+    "program": "BOX0=LOC(object='rolling cart')\nBOX1=LOC(object='teal')\nBOX2=LOC(object='tan')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "cart"
+  },
+  {
+    "scan_id": "scene0700_00",
+    "target_id": 6,
+    "caption": "the backpack on the floor",
+    "program": "BOX0=LOC(object='backpack')\nTARGET=LOWEST(targets=BOX0)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0494_00",
+    "target_id": 11,
+    "caption": "the chair against the whiteboard on the right side",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='whiteboard')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0580_00",
+    "target_id": 16,
+    "caption": "choose the backpack in the corner closer to the window",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='corner')\nBOX2=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0343_00",
+    "target_id": 15,
+    "caption": "facing the tables the second table from the left",
+    "program": "BOX0=LOC(object='tables')\nTARGET=SECOND(targets=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0670_00",
+    "target_id": 13,
+    "caption": "the towel on the left side of the oven door",
+    "program": "BOX0=LOC(object='towel')\nBOX1=LOC(object='oven door')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "towel"
+  },
+  {
+    "scan_id": "scene0678_00",
+    "target_id": 32,
+    "caption": "the correct window is taller and touches the ground",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='ground')\nTARGET=HIGHEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0671_00",
+    "target_id": 16,
+    "caption": "choose the black backpack hanging on the wall",
+    "program": "BOX0=LOC(object='black backpack')\nBOX1=LOC(object='wall')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0207_00",
+    "target_id": 11,
+    "caption": "the only office style chair in the room",
+    "program": "BOX0=LOC(object='office style chair')\nTARGET=ONLY(targets=BOX0)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0535_00",
+    "target_id": 29,
+    "caption": "the correct box is in the middle",
+    "program": "BOX0=LOC(object='box')\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0578_00",
+    "target_id": 13,
+    "caption": "the smallest window above the door",
+    "program": "BOX0=LOC(object='window')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MIN(data=SIZES)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 4,
+    "caption": "the monitor on the floor next to the desk",
+    "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='floor')\nBOX2=LOC(object='desk')\nTARGET=LEFT(targets=BOX0, anchors=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 9,
+    "caption": "the door that is directly south of the arm chair",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='arm chair')\nTARGET=SOUTH(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0435_00",
+    "target_id": 57,
+    "caption": "the picture above the desk",
+    "program": "BOX0=LOC(object='picture')\nBOX1=LOC(object='desk')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "picture"
+  },
+  {
+    "scan_id": "scene0697_00",
+    "target_id": 19,
+    "caption": "the lamp on the stand with two remotes",
+    "program": "BOX0=LOC(object='lamp')\nBOX1=LOC(object='stand')\nTARGET=HIGHEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "lamp"
+  },
+  {
+    "scan_id": "scene0704_00",
+    "target_id": 14,
+    "caption": "the cabinets above the printer",
+    "program": "BOX0=LOC(object='cabinets')\nBOX1=LOC(object='printer')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "cabinets"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 4,
+    "caption": "find the backpack that is in between the desk and the fan",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='desk')\nBOX2=LOC(object='fan')\nTARGET=BETWEEN(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0580_00",
+    "target_id": 25,
+    "caption": "standing at the window facing the doors it is the one on the left",
+    "program": "WINDOW0=LOC(object='window')\nDOORS0=LOC(object='doors')\nTARGET=LEFT(targets=WINDOW0, anchors=DOORS0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0552_00",
+    "target_id": 11,
+    "caption": "the table next to the copier",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='copier')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0607_00",
+    "target_id": 16,
+    "caption": "facing the sinks choose the one on the right",
+    "program": "BOX0=LOC(object='sinks')\nTARGET=RIGHT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "sink"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 18,
+    "caption": "the smaller window near the shutters",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='shutters')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0697_00",
+    "target_id": 10,
+    "caption": "the taller dresser across from the bed",
+    "program": "BOX0=LOC(object='dresser')\nBOX1=LOC(object='bed')\nTARGET=OPPOSITE(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "dresser"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 29,
+    "caption": "the correct trash can is not in the bathroom",
+    "program": "BOX0=LOC(object='trash can')\nROOMS=CALC_ROOM(targets=BOX0)\nTARGET=NOT_IN(data=ROOMS)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0553_00",
+    "target_id": 10,
+    "caption": "white item resting on top of paper towel dispenser close to the door",
+    "program": "BOX0=LOC(object='white item')\nBOX1=LOC(object='paper towel dispenser')\nBOX2=LOC(object='door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "toilet paper"
+  },
+  {
+    "scan_id": "scene0427_00",
+    "target_id": 6,
+    "caption": "chair next to the whiteboard",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='whiteboard')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0011_00",
+    "target_id": 20,
+    "caption": "cabinet closest to the tv",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='tv')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+    "scan_id": "scene0086_00",
+    "target_id": 16,
+    "caption": "the rail directly above the toilet",
+    "program": "BOX0=LOC(object='rail')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "rail"
+  },
+  {
+    "scan_id": "scene0686_00",
+    "target_id": 2,
+    "caption": "the bathroom stall with the toilet seat that is up",
+    "program": "BOX0=LOC(object='bathroom stall')\nBOX1=LOC(object='toilet seat')\nTARGET=UP(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "bathroom stall"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 25,
+    "caption": "it is the chair closest to the exit doorway",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='exit doorway')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 27,
+    "caption": "the book is on the white shelf near the desk",
+    "program": "BOX0=LOC(object='book')\nBOX1=LOC(object='white shelf')\nBOX2=LOC(object='desk')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "book"
+  },
+  {
+    "scan_id": "scene0357_00",
+    "target_id": 0,
+    "caption": "the larger green box underneath the smaller green box",
+    "program": "BOX0=LOC(object='green box')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MAX(data=SIZES)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0663_00",
+    "target_id": 3,
+    "caption": "the desk closest to the window",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0653_00",
+    "target_id": 16,
+    "caption": "facing the windows chose the center desk under the clock",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='clock')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=MID(targets=TARGET)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 28,
+    "caption": "the laptop by the chair with the floral pattern",
+    "program": "BOX0=LOC(object='laptop')\nBOX1=LOC(object='chair')\nBOX2=LOC(object='floral pattern')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "laptop"
+  },
+  {
+    "scan_id": "scene0583_00",
+    "target_id": 12,
+    "caption": "the door along the wall with the open door ( it is not the open door )",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='open door')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0251_00",
+    "target_id": 6,
+    "caption": "facing the chairs this is the one on the left",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='chairs')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0307_00",
+    "target_id": 4,
+    "caption": "the sink closest to the washing machine",
+    "program": "BOX0=LOC(object='sink')\nBOX1=LOC(object='washing machine')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "sink"
+  },
+  {
+    "scan_id": "scene0086_00",
+    "target_id": 16,
+    "caption": "middle of the bar directly above the toilet flushing part",
+    "program": "BOX0=LOC(object='bar')\nBOX1=LOC(object='toilet flushing part')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "rail"
+  },
+  {
+    "scan_id": "scene0030_00",
+    "target_id": 26,
+    "caption": "when facing the three windows you need to choose the one all the way to the left",
+    "program": "BOX0=LOC(object='windows')\nTARGET=LEFT(targets=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0518_00",
+    "target_id": 13,
+    "caption": "large cabinet that is not above the desk",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='desk')\nTARGET=MAX(data=CALC_SIZE(targets=BOX0))\nTARGET=LOWER(targets=TARGET, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 19,
+    "caption": "it is the door located in the corner of the room next to the long table",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='table')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0474_00",
+    "target_id": 41,
+    "caption": "the monitor that is the only one on the side of the room without the man",
+    "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='man')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0608_00",
+    "target_id": 14,
+    "caption": "when standing in the middle of the room facing the plants the correct one is on the left above the tv",
+    "program": "BOX0=LOC(object='plants')\nBOX1=LOC(object='tv')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "plant"
+  },
+  {
+    "scan_id": "scene0591_00",
+    "target_id": 26,
+    "caption": "facing the plants the plant on the right",
+    "program": "BOX0=LOC(object='plants')\nTARGET=RIGHT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "plant"
+  },
+  {
+    "scan_id": "scene0693_00",
+    "target_id": 18,
+    "caption": "the soap dish on the left side of the sink",
+    "program": "BOX0=LOC(object='soap dish')\nBOX1=LOC(object='sink')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "soap dish"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 38,
+    "caption": "the tall set of shelves in the corner",
+    "program": "BOX0=LOC(object='shelves')\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0665_00",
+    "target_id": 19,
+    "caption": "i am the round table in the corner of the room",
+    "program": "BOX0=LOC(object='round table')\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 4,
+    "caption": "this couch is not next to a tall shelf unit",
+    "program": "BOX0=LOC(object='couch')\nBOX1=LOC(object='tall shelf unit')\nTARGET=NOT_CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "couch"
+  },
+  {
+    "scan_id": "scene0221_00",
+    "target_id": 19,
+    "caption": "looking at the beds head on the bag nearest to the bed on the left",
+    "program": "BOX0=LOC(object='beds')\nBOX1=LOC(object='chair')\nTARGET=LEFT(targets=BOX1, anchors=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "bag"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 6,
+    "caption": "looking at both books on the desk it is the book on the right",
+    "program": "BOX0=LOC(object='book')\nBOX1=LOC(object='desk')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "book"
+  },
+  {
+    "scan_id": "scene0608_00",
+    "target_id": 9,
+    "caption": "i am the ottoman closest to the coffee table",
+    "program": "BOX0=LOC(object='ottoman')\nBOX1=LOC(object='coffee table')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "ottoman"
+  },
+  {
+    "scan_id": "scene0203_00",
+    "target_id": 8,
+    "caption": "window with a white frame by the shoes",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='shoes')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0081_00",
+    "target_id": 8,
+    "caption": "the small blue couch that is on the end",
+    "program": "BOX0=LOC(object='couch')\nBOX1=LOC(object='blue couch')",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "couch"
+  },
+  {
+    "scan_id": "scene0651_00",
+    "target_id": 8,
+    "caption": "the chair closest to the kitchen",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='kitchen')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0427_00",
+    "target_id": 4,
+    "caption": "facing the door the bottom left chair",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='door')\nTARGET=BOTTOM_LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0187_00",
+    "target_id": 9,
+    "caption": "the table in front of the chair with a circular stand",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='chair')\nBOX2=LOC(object='circular stand')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "coffee table"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 23,
+    "caption": "i am the shelf above the bed with red clothes on the bed",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='clothes')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)\nTARGET=HIGHER(targets=TARGET, anchors=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0357_00",
+    "target_id": 1,
+    "caption": "the box that is higher",
+    "program": "BOX0=LOC(object='box')\nTARGET=HIGHER(targets=BOX0)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 9,
+    "caption": "if facing the doors the one on your left",
+    "program": "BOX0=LOC(object='doors')\nTARGET=LEFT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0644_00",
+    "target_id": 35,
+    "caption": "when facing the wall with two white boards so that the door is at your right select the whiteboard on the right",
+    "program": "BOX0=LOC(object='whiteboard')\nBOX1=LOC(object='white boards')\nBOX2=LOC(object='door')\nTARGET=RIGHT(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "whiteboard"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 35,
+    "caption": "choose the book on the bottom bunk closest to the outside of the bunk",
+    "program": "BOX0=LOC(object='book')\nBOX1=LOC(object='bottom bunk')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "book"
+  },
+  {
+    "scan_id": "scene0351_00",
+    "target_id": 18,
+    "caption": "the keyboard that is not in front of the whiteboard",
+    "program": "BOX0=LOC(object='keyboard')\nBOX1=LOC(object='whiteboard')\nTARGET=BEHIND(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "keyboard"
+  },
+  {
+    "scan_id": "scene0357_00",
+    "target_id": 1,
+    "caption": "the box stacked on top",
+    "program": "BOX0=LOC(object='box')\nTARGET=HIGHEST(targets=BOX0)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0077_00",
+    "target_id": 9,
+    "caption": "the door directly opposite the window",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='window')\nTARGET=OPPOSITE(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0278_00",
+    "target_id": 4,
+    "caption": "trash can closest to the copier",
+    "program": "BOX0=LOC(object='trash can')\nBOX1=LOC(object='copier')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0699_00",
+    "target_id": 25,
+    "caption": "choose the pillow closest to the window",
+    "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0606_00",
+    "target_id": 30,
+    "caption": "the right storage bin on the floor under the clock",
+    "program": "BOX0=LOC(object='storage bin')\nBOX1=LOC(object='clock')\nTARGET=LOWER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "storage bin"
+  },
+  {
+    "scan_id": "scene0343_00",
+    "target_id": 5,
+    "caption": "i am shelves beside the yellow price tag",
+    "program": "BOX0=LOC(object='shelves')\nBOX1=LOC(object='yellow price tag')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 24,
+    "caption": "the shelf next to the bed on the desk",
+    "program": "BOX0=LOC(object='shelf')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='desk')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0251_00",
+    "target_id": 13,
+    "caption": "the door between grey trash can and two folding tables",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='grey trash can')\nBOX2=LOC(object='folding tables')\nTARGET=BETWEEN(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0153_00",
+    "target_id": 20,
+    "caption": "the towel hanging on the shower curtain rod closest to the toilet",
+    "program": "BOX0=LOC(object='towel')\nBOX1=LOC(object='shower curtain rod')\nBOX2=LOC(object='toilet')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "towel"
+  },
+  {
+    "scan_id": "scene0300_00",
+    "target_id": 9,
+    "caption": "the chair that is alone under the smaller tan table",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='tan table')\nTARGET=UNDER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0169_00",
+    "target_id": 26,
+    "caption": "the cabinet on the left end of the long row of chairs",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='chairs')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "cabinet"
+  },
+  {
+    "scan_id": "scene0699_00",
+    "target_id": 26,
+    "caption": "the pillow on the side near the kitchen table",
+    "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='kitchen table')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0030_00",
+    "target_id": 18,
+    "caption": "when facing the wall of bookshelves choose the box to the left",
+    "program": "BOX0=LOC(object='box')\nBOX1=LOC(object='bookshelves')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "bookshelf"
+  },
+  {
+    "scan_id": "scene0651_00",
+    "target_id": 9,
+    "caption": "facing the refrigerator the chair to the far right",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='refrigerator')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0593_00",
+    "target_id": 18,
+    "caption": "bottom cabinet with a printer next to the standing fan",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='printer')\nBOX2=LOC(object='standing fan')\nTARGET=BETWEEN(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+    "scan_id": "scene0426_00",
+    "target_id": 26,
+    "caption": "if you watching tv the box is to the right",
+    "program": "BOX0=LOC(object='box')\nBOX1=LOC(object='tv')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0653_00",
+    "target_id": 11,
+    "caption": "the whiteboard that has a blue note on top",
+    "program": "BOX0=LOC(object='whiteboard')\nBOX1=LOC(object='blue note')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "board"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 72,
+    "caption": "mirror in the bathroom",
+    "program": "BOX0=LOC(object='mirror')\nBOX1=LOC(object='bathroom')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "mirror"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 10,
+    "caption": "the correct door does not have the couch infront of it and has vertical lines on it",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='couch')\nBOX2=LOC(object='vertical lines')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0084_00",
+    "target_id": 7,
+    "caption": "the middle option near the paper towels",
+    "program": "BOX0=LOC(object='option')\nBOX1=LOC(object='paper towels')\nTARGET=MID(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "toilet paper"
+  },
+  {
+    "scan_id": "scene0685_00",
+    "target_id": 16,
+    "caption": "box in front of another",
+    "program": "BOX0=LOC(object='box')\nTARGET=FRONT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0643_00",
+    "target_id": 27,
+    "caption": "the book closest to the windows",
+    "program": "BOX0=LOC(object='book')\nBOX1=LOC(object='windows')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "book"
+  },
+  {
+    "scan_id": "scene0077_00",
+    "target_id": 20,
+    "caption": "if facing the wall with the yellow page and mirror its the door on the right",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='yellow page')\nBOX2=LOC(object='mirror')\nTARGET=RIGHT(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 57,
+    "caption": "choose the frame over the bed closest to the window",
+    "program": "BOX0=LOC(object='frame')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "picture"
+  },
+  {
+    "scan_id": "scene0063_00",
+    "target_id": 3,
+    "caption": "the microwave on the light brown desk",
+    "program": "BOX0=LOC(object='microwave')\nBOX1=LOC(object='light brown desk')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "microwave"
+  },
+  {
+    "scan_id": "scene0149_00",
+    "target_id": 8,
+    "caption": "the kitchen cabinet located above the oven",
+    "program": "BOX0=LOC(object='kitchen cabinet')\nBOX1=LOC(object='oven')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "kitchen cabinets"
+  },
+  {
+    "scan_id": "scene0558_00",
+    "target_id": 2,
+    "caption": "the chair that does not have a blue bag on it",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='blue bag')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0704_00",
+    "target_id": 11,
+    "caption": "the left artwork directly above the blue shredder",
+    "program": "BOX0=LOC(object='artwork')\nBOX1=LOC(object='blue shredder')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "picture"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 11,
+    "caption": "when facing the table chair on the back side on the left",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='chair')\nTARGET=LEFT(targets=BOX1, anchors=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 3,
+    "caption": "the monitor closest to the window",
+    "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='window')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 58,
+    "caption": "the artwork directly above the bed nearest the bathroom",
+    "program": "BOX0=LOC(object='artwork')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='bathroom')\nTARGET=HIGHEST(targets=BOX0)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "picture"
+  },
+  {
+    "scan_id": "scene0221_00",
+    "target_id": 45,
+    "caption": "the pillow is directly to the right of the lamp",
+    "program": "BOX0=LOC(object='pillow')\nBOX1=LOC(object='lamp')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "pillow"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 7,
+    "caption": "facing the boxes the rightmost one that is in front of a green chair",
+    "program": "BOX0=LOC(object='boxes')\nBOX1=LOC(object='green chair')\nTARGET=RIGHTMOST_FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0256_00",
+    "target_id": 9,
+    "caption": "the curtains are grey",
+    "program": "BOX0=LOC(object='curtains')\nCOLORS=CALC_COLOR(targets=BOX0)\nTARGET=FILTER(targets=BOX0, condition=COLORS=='grey')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "curtain"
+  },
+  {
+    "scan_id": "scene0461_00",
+    "target_id": 2,
+    "caption": "the chair at the corner and there is a square table in front of it",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='corner')\nBOX2=LOC(object='table')\nTARGET=FRONT(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "armchair"
+  },
+  {
+    "scan_id": "scene0609_00",
+    "target_id": 4,
+    "caption": "the square table in the middle of the room",
+    "program": "BOX0=LOC(object='table')\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0343_00",
+    "target_id": 18,
+    "caption": "when pushing in this chair it is the chair on the right",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='lamp')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0653_00",
+    "target_id": 14,
+    "caption": "the lightest colored desk under the clock closest to the file box on the black cabinet",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='clock')\nBOX2=LOC(object='file box')\nBOX3=LOC(object='black cabinet')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX3)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0100_00",
+    "target_id": 18,
+    "caption": "the cup in the middle",
+    "program": "BOX0=LOC(object='cup')\nTARGET=CLOSEST(targets=BOX0, anchors=CENTER)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "cup"
+  },
+  {
+    "scan_id": "scene0488_00",
+    "target_id": 18,
+    "caption": "the cabinets above the sink",
+    "program": "BOX0=LOC(object='cabinets')\nBOX1=LOC(object='sink')\nTARGET=HIGHER(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "kitchen cabinets"
+  },
+  {
+    "scan_id": "scene0328_00",
+    "target_id": 28,
+    "caption": "this sign is next to the sink and on the counter",
+    "program": "BOX0=LOC(object='sign')\nBOX1=LOC(object='sink')\nBOX2=LOC(object='counter')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "sign"
+  },
+  {
+    "scan_id": "scene0565_00",
+    "target_id": 34,
+    "caption": "you want the window that is dark greyish green to the right of the window with pictures on it",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='pictures')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors='dark greyish green')",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0549_00",
+    "target_id": 30,
+    "caption": "the window near the table not the one near the shelves",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='table')\nBOX2=LOC(object='shelves')\nBOX3=LEFT(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=BOX3, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 26,
+    "caption": "the chair in front of the window and between the beds",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='window')\nBOX2=LOC(object='beds')\nTARGET=BETWEEN(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0648_00",
+    "target_id": 9,
+    "caption": "choose the plant closest to the bed",
+    "program": "BOX0=LOC(object='plant')\nBOX1=LOC(object='bed')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "plant"
+  },
+  {
+    "scan_id": "scene0412_00",
+    "target_id": 14,
+    "caption": "select the trash can at the back middle one",
+    "program": "BOX0=LOC(object='trash can')\nTARGET=BEHIND_MIDDLE(targets=BOX0)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0050_00",
+    "target_id": 8,
+    "caption": "choose the glass doors",
+    "program": "BOX0=LOC(object='glass doors')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "doors"
+  },
+  {
+    "scan_id": "scene0616_00",
+    "target_id": 4,
+    "caption": "choose the round table that is not in the corner",
+    "program": "BOX0=LOC(object='round table')\nTARGET=NOT_IN(targets=BOX0, anchors='corner')",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0011_00",
+    "target_id": 32,
+    "caption": "this trashcan is by a double door",
+    "program": "BOX0=LOC(object='trashcan')\nBOX1=LOC(object='double door')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 17,
+    "caption": "if looking at the window from the door the desk on the right",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='window')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 32,
+    "caption": "this backpack is closer to the tall brown wardrobe cabinet '",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='tall brown wardrobe cabinet')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 31,
+    "caption": "it is the cup closest to the chair",
+    "program": "BOX0=LOC(object='cup')\nBOX1=LOC(object='chair')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "cup"
+  },
+  {
+    "scan_id": "scene0251_00",
+    "target_id": 11,
+    "caption": "the trash can in the corner with the blue bag",
+    "program": "BOX0=LOC(object='trash can')\nBOX1=LOC(object='corner')\nBOX2=LOC(object='blue bag')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0664_00",
+    "target_id": 14,
+    "caption": "in the bathtub the shorter towel",
+    "program": "BOX0=LOC(object='towel')\nBOX1=LOC(object='bathtub')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MIN(data=SIZES)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "towel"
+  },
+  {
+    "scan_id": "scene0651_00",
+    "target_id": 8,
+    "caption": "choose the chair that is closest to the kitchen",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='kitchen')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0461_00",
+    "target_id": 2,
+    "caption": "there is a table in front of this armchair",
+    "program": "BOX0=LOC(object='table')\nBOX1=LOC(object='armchair')\nTARGET=FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "armchair"
+  },
+  {
+    "scan_id": "scene0222_00",
+    "target_id": 13,
+    "caption": "this desk is longer and located at the foot of the bed it is located on the opposite wall from the door",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='door')\nTARGET=LOWER(targets=BOX0, anchors=BOX1)\nTARGET=LEFT(targets=BOX0, anchors=BOX2)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0353_00",
+    "target_id": 50,
+    "caption": "looking straight at the orange towel the desk on the right",
+    "program": "BOX0=LOC(object='desk')\nBOX1=LOC(object='orange towel')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "desk"
+  },
+  {
+    "scan_id": "scene0686_00",
+    "target_id": 23,
+    "caption": "this toilet is the one with the seat up and is in the stall closest to the sink",
+    "program": "BOX0=LOC(object='toilet')\nBOX1=LOC(object='sink')\nBOX2=LOC(object='stall')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "toilet"
+  },
+  {
+    "scan_id": "scene0046_00",
+    "target_id": 50,
+    "caption": "find the backpack that is farthest away from the window",
+    "program": "BOX0=LOC(object='backpack')\nBOX1=LOC(object='window')\nTARGET=FARTHEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "backpack"
+  },
+  {
+    "scan_id": "scene0697_00",
+    "target_id": 6,
+    "caption": "the darker brown nightstand beside the bed with a lamp sitting on top",
+    "program": "BOX0=LOC(object='nightstand')\nBOX1=LOC(object='bed')\nBOX2=LOC(object='lamp')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "nightstand"
+  },
+  {
+    "scan_id": "scene0653_00",
+    "target_id": 25,
+    "caption": "the window that does not have a computer facing directly away from it",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='computer')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0494_00",
+    "target_id": 2,
+    "caption": "choose the chair that is closest to the trash can",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='trash can')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0251_00",
+    "target_id": 12,
+    "caption": "the trashcan next to the open doorway",
+    "program": "BOX0=LOC(object='trashcan')\nBOX1=LOC(object='open doorway')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0389_00",
+    "target_id": 12,
+    "caption": "the door that has a painting to the left of it",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='painting')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "door"
+  },
+  {
+    "scan_id": "scene0535_00",
+    "target_id": 26,
+    "caption": "the chair between the desks in the middle of the room",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='desks')\nTARGET=BETWEEN(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0549_00",
+    "target_id": 7,
+    "caption": "round table in corner with something black on it",
+    "program": "BOX0=LOC(object='round table')\nBOX1=LOC(object='something black')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "end table"
+  },
+  {
+    "scan_id": "scene0644_00",
+    "target_id": 8,
+    "caption": "closest cabinet to door",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "cabinet"
+  },
+  {
+    "scan_id": "scene0064_00",
+    "target_id": 7,
+    "caption": "the armchair facing the door",
+    "program": "BOX0=LOC(object='armchair')",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "armchair"
+  },
+  {
+    "scan_id": "scene0300_00",
+    "target_id": 6,
+    "caption": "it is the brown table with a bag on it",
+    "program": "BOX0=LOC(object='brown table')\nBOX1=LOC(object='bag')\nTARGET=FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0207_00",
+    "target_id": 57,
+    "caption": "bathroom sink next to the toilet",
+    "program": "BOX0=LOC(object='sink')\nBOX1=LOC(object='toilet')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "sink"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 33,
+    "caption": "lamp in between the beds",
+    "program": "BOX0=LOC(object='lamp')\nBOX1=LOC(object='beds')\nTARGET=BETWEEN(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "lamp"
+  },
+  {
+    "scan_id": "scene0426_00",
+    "target_id": 16,
+    "caption": "find the monitor that sits on the table near the window blinds",
+    "program": "BOX0=LOC(object='monitor')\nBOX1=LOC(object='table')\nBOX2=LOC(object='window blinds')\nTARGET=CLOSEST(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "monitor"
+  },
+  {
+    "scan_id": "scene0196_00",
+    "target_id": 2,
+    "caption": "face the door the table you want is across the room from the door in the middle of the other two tables",
+    "program": "BOX0=LOC(object='door')\nBOX1=LOC(object='table')\nBOX2=LOC(object='other two tables')\nTARGET=BETWEEN(targets=BOX1, anchors=[BOX0, BOX2])",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "table"
+  },
+  {
+    "scan_id": "scene0458_00",
+    "target_id": 18,
+    "caption": "the bottle is the only one sitting on the bathroom counter next to the sink",
+    "program": "BOX0=LOC(object='bottle')\nBOX1=LOC(object='bathroom counter')\nBOX2=LOC(object='sink')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX2)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "bottle"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 11,
+    "caption": "much taller shelf of the two",
+    "program": "BOX0=LOC(object='shelf')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MAX(data=SIZES)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "shelf"
+  },
+  {
+    "scan_id": "scene0568_00",
+    "target_id": 2,
+    "caption": "the blue toddler chair that does not have a disney cars theme it is right in front of the curtains",
+    "program": "BOX0=LOC(object='toddler chair')\nBOX1=LOC(object='curtains')\nTARGET=FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "chair"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 21,
+    "caption": "choose the smaller of the two windows it is on the left if you face the windows",
+    "program": "BOX0=LOC(object='windows')\nBOX1=LOC(object='smaller')\nBOX2=LOC(object='left')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)\nTARGET=CLOSEST(targets=TARGET, anchors=BOX2)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0704_00",
+    "target_id": 14,
+    "caption": "the top cabinet next to door",
+    "program": "BOX0=LOC(object='cabinet')\nBOX1=LOC(object='door')\nTARGET=RIGHT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "cabinets"
+  },
+  {
+    "scan_id": "scene0474_00",
+    "target_id": 23,
+    "caption": "the tall narrow window next to the exit door",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='exit door')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0329_00",
+    "target_id": 14,
+    "caption": "the blue trash can to the left of the grey trash can",
+    "program": "BOX0=LOC(object='blue trash can')\nBOX1=LOC(object='grey trash can')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0011_00",
+    "target_id": 32,
+    "caption": "the trash can located next to the two doors leading out",
+    "program": "BOX0=LOC(object='trash can')\nBOX1=LOC(object='doors')\nTARGET=CLOSEST(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0203_00",
+    "target_id": 21,
+    "caption": "the blue bag on top of the end table next to the couch",
+    "program": "BOX0=LOC(object='blue bag')\nBOX1=LOC(object='end table')\nBOX2=LOC(object='couch')\nTARGET=HIGHER(targets=BOX0, anchors=[BOX1, BOX2])",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "bag"
+  },
+  {
+    "scan_id": "scene0256_00",
+    "target_id": 3,
+    "caption": "it is the box on top",
+    "program": "BOX0=LOC(object='box')\nTARGET=HIGHEST(targets=BOX0)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "box"
+  },
+  {
+    "scan_id": "scene0231_00",
+    "target_id": 31,
+    "caption": "the trash can in front of piles of papers that are under a desk",
+    "program": "BOX0=LOC(object='trash can')\nBOX1=LOC(object='desk')\nTARGET=FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "trash can"
+  },
+  {
+    "scan_id": "scene0030_00",
+    "target_id": 68,
+    "caption": "it is the small bookshelf located between the two larger bookshelves",
+    "program": "BOX0=LOC(object='bookshelf')\nSIZES=CALC_SIZE(targets=BOX0)\nTARGET=MID(targets=BOX0)",
+    "easy": false,
+    "view_dep": false,
+    "obj_name": "bookshelf"
+  },
+  {
+    "scan_id": "scene0598_00",
+    "target_id": 16,
+    "caption": "if you are facing the monitors select the mouse that goes with the computer on the left",
+    "program": "BOX0=LOC(object='monitors')\nBOX1=LOC(object='mouse')\nBOX2=LOC(object='computer')\nTARGET=LEFT(targets=BOX0, anchors=BOX2)\nTARGET=WITH(targets=TARGET, data=BOX1)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "mouse"
+  },
+  {
+    "scan_id": "scene0314_00",
+    "target_id": 7,
+    "caption": "of the two chairs that are next to each other choose the one in front of the monitor",
+    "program": "BOX0=LOC(object='chairs')\nBOX1=LOC(object='monitor')\nTARGET=FRONT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "office chair"
+  },
+  {
+    "scan_id": "scene0025_00",
+    "target_id": 21,
+    "caption": "facing the windows the window to the left",
+    "program": "BOX0=LOC(object='window')\nTARGET=LEFT(targets=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0432_00",
+    "target_id": 2,
+    "caption": "it is the chair with the towel hanging behind it",
+    "program": "BOX0=LOC(object='chair')\nBOX1=LOC(object='towel')\nTARGET=BEHIND(targets=BOX1, anchors=BOX0)",
+    "easy": true,
+    "view_dep": true,
+    "obj_name": "sofa chair"
+  },
+  {
+    "scan_id": "scene0246_00",
+    "target_id": 2,
+    "caption": "the light in the middle of the room on the ceiling",
+    "program": "BOX0=LOC(object='light')\nTARGET=CENTER(targets=BOX0)",
+    "easy": true,
+    "view_dep": false,
+    "obj_name": "light"
+  },
+  {
+    "scan_id": "scene0500_00",
+    "target_id": 28,
+    "caption": "the window in the back of the room ( assuming the blackboard is the front ) directly across the room from the board",
+    "program": "BOX0=LOC(object='window')\nBOX1=LOC(object='blackboard')\nTARGET=OPPOSITE(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "window"
+  },
+  {
+    "scan_id": "scene0645_00",
+    "target_id": 40,
+    "caption": "select the curtain beside the chairs the one on your left",
+    "program": "BOX0=LOC(object='curtain')\nBOX1=LOC(object='chairs')\nTARGET=LEFT(targets=BOX0, anchors=BOX1)",
+    "easy": false,
+    "view_dep": true,
+    "obj_name": "curtain"
+  }
+]

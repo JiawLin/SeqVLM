@@ -1,0 +1,24 @@
+Given a query of an object, your task is to find the name of the target object.
+
+Here are some examples of the query and the corresponding name:
+
+```
+[0] Query: the handicapped stall
+[1] Query: the two trash cans between the doors the one on the left
+[2] Query: there is a dark brown wooden and leather chair placed in the table of the kitchen.
+[3] Query: it is a stainless steel refrigerator, and the refrigerator sits to the left of the windows above the counter .
+[4] Query: choose the smaller bookshelf that is close to the chair with a blue backpack
+[5] Query: a rolling office chair on the right side of the table from the head chair . it is the second to last chair .
+
+
+[0] Target: handicapped stall
+[1] Target: trash can
+[2] Target: chair
+[3] Target: refrigerator
+[4] Target: bookshelf
+[5] Target: office chair
+```
+
+Here are some tips:
+# You need to understand what object the query is trying to find.
+# DO NOT keep the appearance description of the target object, like color, material, shape, etc.

@@ -1,0 +1,16 @@
+colorama==0.4.6
+imageio==2.36.0
+mmengine==0.10.6
+numpy==2.3.2
+objprint==0.3.0
+openai==1.102.0
+opencv_python==4.10.0.84
+pandas==2.3.2
+Pillow==11.3.0
+psutil==6.0.0
+pytorch3d.egg==info
+PyYAML==6.0
+PyYAML==6.0.2
+torch==1.11.0+cu113
+tqdm==4.62.3
+transformers==4.44.2
