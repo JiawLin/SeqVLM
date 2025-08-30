@@ -51,7 +51,7 @@ SeqVLM is a novel framework for zero-shot 3D visual grounding that leverages mul
 
 1.  **ScanRefer Dataset**: Download the ScanRefer dataset from the [official repository](https://github.com/daveredrum/ScanRefer) and place it under `data/scanrefer`.
 
-2.  **Nr3D Dataset**: Download the Nr3D dataset from the [official repository](https://github.com/cshizhe/vil3dref) and place it under `data/referit3d`.
+2.  **Nr3D Dataset**: Download the preprocessed Vil3dref data from the [official repository](https://github.com/cshizhe/vil3dref) and place it under `data/referit3d`.
 
 3.  **3D Features**: Generate `feats_3d.pkl` by following the instructions from [ZSVG3D](https://github.com/CurryYuan/ZSVG3D) and place the file in the `data/` directory.
 
