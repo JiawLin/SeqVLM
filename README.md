@@ -111,3 +111,18 @@ Our work builds upon several amazing projects. We would like to extend our grati
 *   [SeeGround](https://github.com/iris0329/SeeGround)
 
 ---
+
+## 📜 Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@article{lin2025seqvlm,
+  title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
+  author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
+  journal={arXiv preprint arXiv:2508.20758},
+  year={2025}
+}
+
+---
+
