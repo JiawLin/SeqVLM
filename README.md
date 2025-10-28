@@ -125,7 +125,6 @@ If you find our work useful, please consider citing:
   year={2025}
 }
 
-```bibtex
 @article{lin2025seqvlm,
   title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
   author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
@@ -133,7 +132,6 @@ If you find our work useful, please consider citing:
   year={2025}
 }
 
-```bibtex
 @article{lin2025seqvlm,
   title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
   author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
