@@ -117,6 +117,15 @@ Our work builds upon several amazing projects. We would like to extend our grati
 If you find our work useful, please consider citing:
 
 ```bibtex
+@inproceedings{lin2025seqvlm,
+  title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
+  author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={3094--3103},
+  year={2025}
+}
+
+```bibtex
 @article{lin2025seqvlm,
   title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
   author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
@@ -124,4 +133,12 @@ If you find our work useful, please consider citing:
   year={2025}
 }
 
+```bibtex
+@article{lin2025seqvlm,
+  title={SeqVLM: Proposal-Guided Multi-View Sequences Reasoning via VLM for Zero-Shot 3D Visual Grounding},
+  author={Lin, Jiawen and Bian, Shiran and Zhu, Yihang and Tan, Wenbin and Zhang, Yachao and Xie, Yuan and Qu, Yanyun},
+  journal={arXiv e-prints},
+  pages={arXiv--2508},
+  year={2025}
+}
 
