@@ -55,10 +55,6 @@ if __name__ == '__main__':
     
     
     for i, task in enumerate(eval_data):
-        process = psutil.Process()
-        cpu_start = process.cpu_times()
-        mem_start = process.memory_info().rss / (1024 * 1024)  # MB
-        start_time = time.time()
         scene_id, obj_id, caption, prog_str, obj_name = task.values()
         # print(task)
         
@@ -125,18 +121,6 @@ if __name__ == '__main__':
             for msg in accuracy_msgs:
                 logger.info(msg)
 
-        end_time = time.time()
-        cpu_end = process.cpu_times()
-        mem_end = process.memory_info().rss / (1024 * 1024)  # MB
-
-        cpu_used = (cpu_end.user - cpu_start.user) + (cpu_end.system - cpu_start.system)
-        wall_time = end_time - start_time
-
-        print(f"\n=== Resource Usage Summary ===")
-        print(f"Time: {wall_time:.2f}s")
-        print(f"Memory: {mem_start:.2f} MB → {mem_end:.2f} MB")
-        print(f"CPU Time: {cpu_used:.2f}s")
-        print(f"===============================")
     
 
     
