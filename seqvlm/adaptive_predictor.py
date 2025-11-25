@@ -35,8 +35,8 @@ class AdpativePredictor:
         seg_conf_score = 0.2
         
         for i, label in enumerate(ins_labels):
-            # if ins_scores[i] > seg_conf_score and label == pred_cls:
-            if label == pred_cls:
+            if ins_scores[i] > seg_conf_score and label == pred_cls:
+            # if label == pred_cls:
                 canvas = os.path.join(self.image_path, scene_id, str(i), 'canvas.jpg')
                 if os.path.exists(canvas):
                     index.append(i)
