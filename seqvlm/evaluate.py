@@ -16,8 +16,8 @@ if __name__ == '__main__':
     parser.add_argument('--image_path', type=str, required=True)
     parser.add_argument('--vlm_model', type=str, default='doubao-vision')
     parser.add_argument('--max_retry', type=int, default=3)
-    parser.add_argument('--max_batch_size', type=int, default=0)
-    parser.add_argument('--max_vlm_props', type=int, default=0)
+    parser.add_argument('--max_batch_size', type=int, default=4)
+    parser.add_argument('--max_vlm_props', type=int, default=40)
     
     args = parser.parse_args()
     
